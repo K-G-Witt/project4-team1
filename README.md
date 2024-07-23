@@ -25,6 +25,6 @@ Details here ...
 
 
 ## Credits:
-This code was compiled and written by Violent Bui, Elizabeth Dashwood, Mark Peck, and Katrina Witt for project 4 in the 2024 edX Data Analytics Boot Camp hosted by Monash University. Additional credits are declared below:
+This code was compiled and written by Violet Bui, Elizabeth Dashwood, Mark Peck, and Katrina Witt for project 4 in the 2024 edX Data Analytics Boot Camp hosted by Monash University. Additional credits are declared below:
 
 
