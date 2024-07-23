@@ -1,5 +1,4 @@
-# project4-team1:
-[INSERT TITLE HERE]
+# project4-team1: [INSERT TITLE HERE]
 Basic description here
 
 ## Installation and Run Instructions:
