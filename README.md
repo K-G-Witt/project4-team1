@@ -14,7 +14,10 @@ This repo contains the following:
 
 
 ## Overview of the Analysis:
-Geneticists have identified locations in the human genome that can assess an individual's ancestry, called ancestry-informative single nucleotide polymorphisms (AISNPs). These locations, denoted by rsid numbers, display ancestry-specific variation. The overall purposes of this analysis is to ...
+Geneticists have identified locations in the human genome that can assess an individual's ancestry, called ancestry-informative single nucleotide polymorphisms (AISNPs). These locations, denoted by rsid numbers, display ancestry-specific variation. The overall purposes of this analyses are to:
+* A
+* B
+* C
 
 
 ## Results:
