@@ -38,9 +38,9 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
 
 ### Kidd et al (2014):
-Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. (accessed 29 July 2024).
+Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. https://doi.org/10.1016/j.fsigen.2014.01.002 (accessed 29 July 2024).
 
 ### Seldin et al (2011):
-Kosoy R., ... Seldin MF. (2011). Ancestry informative marker sets for determining continental origin and admixture proportions in common populations in America. Hum Mutat, 30: 69-78 (accessed 29 July 2024).
+Kosoy R., ... Seldin MF. (2011). Ancestry informative marker sets for determining continental origin and admixture proportions in common populations in America. Hum Mutat, 30: 69-78. https://doi.org/10.1002/humu.20822 (accessed 29 July 2024).
 
 
