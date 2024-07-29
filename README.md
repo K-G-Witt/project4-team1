@@ -35,7 +35,7 @@ The 1000 Genomes Project Consortium. (2015). A Global Refernce for Human Genetic
 https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2024).
 
 ### 1000 Genomes Ancestry (Data):
-Kevin Arvai. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
+Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
 
 ### Kidd et al (2014):
 Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. (accessed 29 July 2024).
