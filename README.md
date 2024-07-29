@@ -7,9 +7,10 @@ Details on any packages that need to be installed first
 
 ## Usage Instructions:
 This repo contains the following:
-* X
-* Y
-* Z
+* **kidd_train.csv:** the training dataset from Kidd et al (2014).
+* **kidd_test.csv:** the testing dataset from Kidd et al (2014).
+* **seldin_train.csv:** the training dataset from Seldin et al (2011).
+* **seldin_test.csv:** the testing dataset from Seldin et al (2011).
 
 
 ## Overview of the Analysis:
@@ -35,5 +36,11 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 
 ### 1000 Genomes Ancestry (Data):
 Kevin Arvai. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
+
+### Kidd et al (2014):
+Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. (accessed 29 July 2024).
+
+### Seldin et al (2011):
+Kosoy R., ... Seldin MF. (2011). Ancestry informative marker sets for determining continental origin and admixture proportions in common populations in America. Hum Mutat, 30: 69-78 (accessed 29 July 2024).
 
 
