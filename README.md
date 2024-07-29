@@ -2,6 +2,8 @@
 Basic description here
 
 ## Installation and Run Instructions:
+You may need to install the following dependencies before commencing:
+
 ### Amazon Web Services Command Line Interface:
 !pip install awscli
 
