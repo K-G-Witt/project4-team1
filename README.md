@@ -14,7 +14,7 @@ You may need to install the following dependencies before commencing:
 
 
 ## Usage Instructions:
-This repo contains the following datasets:
+This repo contains the following datasets, saved in the Resources subfolder:
 * **1000genomes_populations.csv:** a broadcast table containing data on the population types, population codes, and superpopulation codes for each ancestry group.
 
 * **1000genomes_superpopulations.csv:** a broadcast table containing data on the superpopulation types and codes for each ancestry group.
@@ -27,6 +27,15 @@ This repo contains the following datasets:
   * **seldin_test.csv:** the test dataset from Seldin et al (2011).
   * **seldin_train.csv:** the train dataset from Seldin et al (2011).
 
+This repo contains the following executable scripts:
+1. **Install_1000genomes.ipynb:** a python script, executable in Jupyter Notebook, required to:
+  * Download the **1000genomes_populations** and **1000genomes_superpopulations** data from the 1000 Genomes Project AWS S3 Bucket;
+  * Convert the **1000genomes_populations** and **1000genomes_superpopulations** data into Pandas DataFrames;
+  * Save the **1000genomes_populations** and **1000genomes_superpopulations** data as .csv files into the Resources subfolder;
+  * Read the **kidd_test.csv** and **kidd_train.csv**, merging these using the pd.merge() function to create the **kidd_combined.csv** dataset;
+  * Read the **seldin_test.csv** and **seldin_train.csv**, merging these using the pd.merge() function to create the **seldin_combined.csv** dataset;
+  * Convert the **kidd_combined.csv** and **seldin_combined.csv** datasets into Pandas DataFrames, and;
+  * Save the **kidd_combined.csv** and **seldin_combined.csv** datasets as .csv files into the Resources subfolder.
 
 ## Overview of the Analysis:
 The overall purposes of this analyses are to:
