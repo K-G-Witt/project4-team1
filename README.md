@@ -14,7 +14,7 @@ You may need to install the following dependencies before commencing:
 
 
 ## Usage Instructions:
-This repo contains the following:
+This repo contains the following datasets:
 * **kidd_train.csv:** the training dataset from Kidd et al (2014).
 * **kidd_test.csv:** the testing dataset from Kidd et al (2014).
 * **seldin_train.csv:** the training dataset from Seldin et al (2011).
@@ -22,10 +22,12 @@ This repo contains the following:
 
 
 ## Overview of the Analysis:
- The overall purposes of this analyses are to:
-* A
-* B
-* C
+The overall purposes of this analyses are to:
+* Preprocess the datasets using one-hot encoding to prepare for machine learning;
+* Perform feature selection to identify the most informative SNPs using unsupervised machine learning techniques.
+* Build and train a supervised machine learning model to predict an individual's ancestry;
+* Evaluate the performance of this model on the test datasets using accuracy, precision, recall, and the F1-score, and;
+* Create a series of plots to visualise the ancestry distributions of individuals in the 1000 Genomes Project.
 
 
 ## Results:
