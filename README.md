@@ -47,7 +47,13 @@ The overall purposes of this analyses are to:
 
 
 ## Results:
-Description and screenshots ...
+### Data preprocessing:
+
+### Feature selection using Principal Components Analysis (PCA) to reduce dimesionality:
+
+### Deep learning using neural networks to classify ancestry:
+
+### Visualisations:
 
 
 ## Summary:
