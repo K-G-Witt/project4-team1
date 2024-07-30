@@ -60,6 +60,10 @@ The overall purposes of this analyses are to:
 Details here ...
 
 
+## Data Ethics Statement:
+The 1000 Genomes Project Consortium has made this data asset publicly available to all without restrictions (public).
+
+
 ## Credits:
 This code was compiled and written by Violet Bui, Elizabeth Dashwood, Mark Peck, and Katrina Witt for project 4 in the 2024 edX Data Analytics Boot Camp hosted by Monash University. Additional credits are declared below:
 
