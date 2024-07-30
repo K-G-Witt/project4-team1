@@ -1,5 +1,10 @@
 # project4-team1: [INSERT TITLE HERE]
-Basic description here
+Geneticists have identified locations in the human genome that can assess an individual's ancestry, called ancestry-informative single nucleotide polymorphisms (AISNPs). These locations, denoted by rsid numbers, display ancestry-specific variation. However, there is debate as to how many AISNPs are sufficent to determine an individual's ancestry with some researchers, notably Kidd et al (2014) identifying 55 AISNPs, whilst others, notably Seldin et al (2011), identifying 128 AISNPs.
+
+The 1000 Genomes Project provides a unique opportunity to test the discriminatory power of AISNPs for the determination of an individual's ancestry. This project is an international research effort aimed at cataloging human genetic variation by sequencing the genomes of approximately 2,500 persons from various populations worldwide. The recruitment and data collection took place between 2008 and 2015. More information on the overall project can be found in the 1000 Genomes Project reference below.
+
+
+
 
 ## Installation and Run Instructions:
 You may need to install the following dependencies before commencing:
@@ -17,7 +22,7 @@ This repo contains the following:
 
 
 ## Overview of the Analysis:
-Geneticists have identified locations in the human genome that can assess an individual's ancestry, called ancestry-informative single nucleotide polymorphisms (AISNPs). These locations, denoted by rsid numbers, display ancestry-specific variation. The overall purposes of this analyses are to:
+ The overall purposes of this analyses are to:
 * A
 * B
 * C
