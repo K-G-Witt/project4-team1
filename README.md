@@ -16,7 +16,7 @@ You may need to install the following dependencies before commencing:
 ## Usage Instructions:
 This repo contains the following datasets:
 * **1000genomes_populations.csv:** a broadcast table containing data on the population types, population codes, and superpopulation codes for each ancestry group.
-* 
+
 * **1000genomes_superpopulations.csv:** a broadcast table containing data on the superpopulation types and codes for each ancestry group.
   
 * **kidd_combined.csv:** a dataset combining the test and train datasets from Kidd et al (2014).
