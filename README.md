@@ -15,10 +15,17 @@ You may need to install the following dependencies before commencing:
 
 ## Usage Instructions:
 This repo contains the following datasets:
-* **kidd_train.csv:** the training dataset from Kidd et al (2014).
-* **kidd_test.csv:** the testing dataset from Kidd et al (2014).
-* **seldin_train.csv:** the training dataset from Seldin et al (2011).
-* **seldin_test.csv:** the testing dataset from Seldin et al (2011).
+* **1000genomes_populations.csv:** a broadcast table containing data on the population types, population codes, and superpopulation codes for each ancestry group.
+* 
+* **1000genomes_superpopulations.csv:** a broadcast table containing data on the superpopulation types and codes for each ancestry group.
+  
+* **kidd_combined.csv:** a dataset combining the test and train datasets from Kidd et al (2014).
+  * **kidd_test.csv:** the test dataset from Kidd et al (2014).
+  * **kidd_train.csv:** the train dataset from Kidd et al (2014).
+    
+* **seldin_combined.csv:** a dataset combining the test and train datasets from Seldin et al (2011).
+  * **seldin_test.csv:** the test dataset from Seldin et al (2011).
+  * **seldin_train.csv:** the train dataset from Seldin et al (2011).
 
 
 ## Overview of the Analysis:
