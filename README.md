@@ -10,7 +10,14 @@ The 1000 Genomes Project provides a unique opportunity to test the discriminator
 You may need to install the following dependencies before commencing:
 
 ### Amazon Web Services Command Line Interface:
-!pip install awscli
+1. Open **GitBash**
+2. Activate your dev environment by typing **conda activate dev**
+3. Next, type **pip install awscli**
+
+### Multiple Correspondence Analysis (MCA) package:
+1. Open **GitBash**
+2. Activate your dev environment by typing **conda activate dev**
+3. Next, type **pip install prince**
 
 
 ## Usage Instructions:
