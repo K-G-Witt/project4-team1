@@ -83,6 +83,9 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 ### 1000 Genomes Ancestry (Data):
 Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
 
+### Prince package for MCA:
+https://pypi.org/project/prince/0.6.2/#multiple-correspondence-analysis-mca (accessed 3 August 2024).
+
 ### Kidd et al (2014):
 Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. https://doi.org/10.1016/j.fsigen.2014.01.002 (accessed 29 July 2024).
 
