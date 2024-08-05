@@ -35,6 +35,7 @@ This repo contains the following datasets, saved in the Resources subfolder:
   * **seldin_train.csv:** the train dataset from Seldin et al (2011).
 
 This repo contains the following executable scripts:
+
 1. **Install_1000genomes.ipynb:** a python script, executable in Jupyter Notebook, required to:
     * Download the **1000genomes_populations** and **1000genomes_superpopulations** data from the 1000 Genomes Project AWS S3 Bucket;
     * Convert the **1000genomes_populations** and **1000genomes_superpopulations** data into Pandas DataFrames;
@@ -43,6 +44,20 @@ This repo contains the following executable scripts:
     * Read the **seldin_test.csv** and **seldin_train.csv**, merging these using the pd.merge() function to create the **seldin_combined.csv** dataset;
     * Convert the **kidd_combined.csv** and **seldin_combined.csv** datasets into Pandas DataFrames, and;
     * Save the **kidd_combined.csv** and **seldin_combined.csv** datasets as .csv files into the Resources subfolder.
+  
+2. **MCA.ipynb:** a python script, executable in Jupyter Notebook, required to:
+    * Load the **kidd** and **seldin** .csv files;
+    * Define the features (i.e., SNIPS) and labels (i.e., superpopulation);
+    * Encode and map the reference and alternate alleles for each SNIP against **dbSNP database** standards;
+    * Perform an MCA to identify the optimal number of components to retain;
+    * Plot the cumultative explained variance by the number of principal components;
+    * Perform an MCA with the optimal number of components;
+    * Plot the cumultative explained variance by the number of principal components;
+    * Plot the contribution of each SNIP to each principal component;
+    * Create Pandas DataFrames of these contributions;
+    * Export these contributions as .csv files within the **Exhibits** subfolder as:
+       * **kidd_snip_contributions.csv**
+       * **seldin_snip_contributions.csv**
 
 ## Overview of the Analysis:
 The overall purposes of this analyses are to:
