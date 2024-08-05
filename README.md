@@ -44,7 +44,12 @@ This repo also contains the following executable scripts:
     * Convert the **kidd_combined.csv** and **seldin_combined.csv** datasets into Pandas DataFrames, and;
     * Save the **kidd_combined.csv** and **seldin_combined.csv** datasets as .csv files into the Resources subfolder.
   
-2. **MCA.ipynb:** a python script, executable in Jupyter Notebook, required to:
+2. **PCA.ipynb:** a python script, executable  in Jupyter Notebook, required to:
+     * X
+     * Y
+     * Z
+       
+3. **MCA.ipynb:** a python script, executable in Jupyter Notebook, required to:
     * Load the **kidd** and **seldin** .csv files;
     * Define the features (i.e., SNIPS) and labels (i.e., superpopulation);
     * Encode and map the reference and alternate alleles for each SNIP against **dbSNP database** standards;
@@ -57,6 +62,11 @@ This repo also contains the following executable scripts:
     * Export these contributions as .csv files within the **Exhibits** subfolder as:
        * **kidd_snip_contributions.csv**
        * **seldin_snip_contributions.csv**
+
+4. **NN.ipynb:** a python script, executable in Jupyter Notebook, required to:
+     * X
+     * Y
+     * Z
 
 ## Overview of the Analysis:
 The overall purposes of this analyses are to:
