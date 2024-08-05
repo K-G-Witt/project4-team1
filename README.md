@@ -83,7 +83,7 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 ### 1000 Genomes Ancestry (Data):
 Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
 
-### dbSNP database (to search for reference/alternate allele combinations)
+### dbSNP database (to search for reference/alternate allele combinations by each SNIP):
 https://ncbi.nlm.nih.gov/snp/ (accessed 3 August 2024).
 
 ### MCA using prince package:
