@@ -82,16 +82,22 @@ The overall purposes of this analyses are to:
 
 
 ## Results:
-### Data ingestion:
+### Data ingestion & storage:
   
 
 ### Data preprocessing:
-Preprocessing was largely ineffective towards the final goal of creating a neural network to predict ancestry based on a range of SNPs.
-Principal Component Analysis (PCA) generated very low scores for explained variance by 2 or 3 principal components.
-The nature of the data is largely to blame for this, as DNA data is considered to be far too categorical in nature to be effectively handled by PCA.
-Thus the PCA results were not passed on to the final neural network model.
+* Preprocessing was largely ineffective towards the final goal of creating a neural network to predict ancestry based on a range of SNIPs.
+* Principal Component Analysis (PCA) generated very low scores for explained variance by 2 or 3 principal components.
+* The nature of the data is largely to blame for this, as genomic data is considered to be far too categorical in nature to be effectively handled by PCA.
+* Thus, PCA results were not passed on to the final neural network model.
 
-### Feature selection to reduce dimesionality:
+### Dimesionality reduction:
+* Given the categorical nature of these data, multiple correspondence analysis (MCA) was used to reduce the number of features.
+* Two principal components were identified with the first explaining between 61-68% of the variance, and the second explaining 32-39% of the variance.
+* The first principal compoent contained SNIPs that encode for cardiovascular and diabetes disease risk.
+* The second principal component contained SNIPs that encode for cancer risk and obesity.
+* Whilst these diseases are known to be linked with ancestry, these components were not considered to be determinitive for ancestry
+* Thus, MCA results were not passed on to the final neural network model.
 
 ### Deep learning using neural networks to classify ancestry:
 
