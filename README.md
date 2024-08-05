@@ -112,7 +112,7 @@ The overall purposes of this analyses are to:
 
 ### Visualisations:
 Visualisations can be seen on the following [Tableau Dashboard]("https://public.tableau.com/app/profile/violet.bui/viz/shared/WC6BNC323")    
-![Screenshot of Tableau Dashboard]("TableauScreenshot.png")
+![Screenshot of Tableau Dashboard](TableauScreenshot.png)
 
 ## Summary:
 Details here ...
