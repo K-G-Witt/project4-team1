@@ -83,7 +83,8 @@ The overall purposes of this analyses are to:
 
 ## Results:
 ### Data ingestion & storage:
-  
+* Data were downloaded from the 1000 Genomes Project AWS S3 Bucket and from Kaggle as .csv files.
+* These were converted into Pandas DataFrames, and exported as .csv files to enable further anlysis.
 
 ### Data preprocessing:
 * Preprocessing was largely ineffective towards the final goal of creating a neural network to predict ancestry based on a range of SNIPs.
