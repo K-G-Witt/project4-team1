@@ -102,7 +102,7 @@ The overall purposes of this analyses are to:
 * Whilst these diseases are known to be linked with ancestry, these components were not considered to be determinitive for ancestry
 * Thus, MCA results were not passed on to the final neural network model.
 
-### Deep learning using neural networks to classify ancestry:
+### Classifying ancestry:
 
 ### Visualisations:
 
