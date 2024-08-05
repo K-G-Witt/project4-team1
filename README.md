@@ -4,8 +4,6 @@ Geneticists have identified locations in the human genome that can assess an ind
 The 1000 Genomes Project provides a unique opportunity to test the discriminatory power of AISNPs for the determination of an individual's ancestry. This project is an international research effort aimed at cataloging human genetic variation by sequencing the genomes of approximately 2,500 persons from various populations worldwide. The recruitment and data collection took place between 2008 and 2015. More information on the overall project can be found in the 1000 Genomes Project reference below.
 
 
-
-
 ## Installation and Run Instructions:
 You may need to install the following dependencies before commencing:
 
@@ -34,7 +32,8 @@ This repo contains the following datasets, saved in the Resources subfolder:
   * **seldin_test.csv:** the test dataset from Seldin et al (2011).
   * **seldin_train.csv:** the train dataset from Seldin et al (2011).
 
-This repo contains the following executable scripts:
+ 
+This repo also contains the following executable scripts:
 
 1. **Install_1000genomes.ipynb:** a python script, executable in Jupyter Notebook, required to:
     * Download the **1000genomes_populations** and **1000genomes_superpopulations** data from the 1000 Genomes Project AWS S3 Bucket;
