@@ -83,7 +83,10 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 ### 1000 Genomes Ancestry (Data):
 Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
 
-### Prince package for MCA:
+### dbSNP database (to search for reference/alternate allele combinations)
+https://ncbi.nlm.nih.gov/snp/ (accessed 3 August 2024).
+
+### MCA using prince package:
 https://pypi.org/project/prince/0.6.2/#multiple-correspondence-analysis-mca (accessed 3 August 2024).
 
 ### Kidd et al (2014):
