@@ -63,7 +63,7 @@ This repo also contains the following executable scripts:
        * **kidd_snip_contributions.csv**
        * **seldin_snip_contributions.csv**
 
-4. **NN.ipynb:** a python script, executable in Jupyter Notebook, required to:
+4. **NN_Kidd.ipynb** and **NN_Seldin.ipynb:** two python scripts, executable in Jupyter Notebook, required to:
      * X
      * Y
      * Z
