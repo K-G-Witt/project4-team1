@@ -93,8 +93,10 @@ The overall purposes of this analyses are to:
 
 ### Dimesionality reduction:
 * Given the categorical nature of these data, multiple correspondence analysis (MCA) was used to reduce the number of features.
-* Two principal components were identified with the first explaining between 61-68% of the variance, and the second explaining 32-39% of the variance.
-* The first principal compoent contained SNIPs that encode for cardiovascular and diabetes disease risk.
+* Two principal components were identified:
+    * The first principal component explained between 61-68% of the variance;
+    * The second principal component explained 32-39% of the variance.
+* The first principal component contained SNIPs that encode for cardiovascular and diabetes disease risk.
 * The second principal component contained SNIPs that encode for cancer risk and obesity.
 * Whilst these diseases are known to be linked with ancestry, these components were not considered to be determinitive for ancestry
 * Thus, MCA results were not passed on to the final neural network model.
