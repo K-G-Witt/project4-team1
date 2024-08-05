@@ -72,6 +72,12 @@ This repo also contains the following executable scripts:
      * Y
      * Z
 
+5. **Result_counting.ipynb:** a python script to count the interactions between superpopulations
+    * Reads in a csv file containing actual superpopulation data and predicted superpopulation data
+    * Drops NaN's
+    * Calculates a "Path ID" then counts the values when group-by'ing by Path ID
+    * Exports to a CSV to drop into Tableau
+
 ## Overview of the Analysis:
 The overall purposes of this analyses are to:
 * Preprocess the datasets using one-hot encoding to prepare for machine learning;
@@ -105,7 +111,8 @@ The overall purposes of this analyses are to:
 ### Classifying ancestry:
 
 ### Visualisations:
-
+Visualisations can be seen on the following [Tableau Dashboard]("https://public.tableau.com/app/profile/violet.bui/viz/shared/WC6BNC323")    
+![Screenshot of Tableau Dashboard]("Tableau Screenshot.png")
 
 ## Summary:
 Details here ...
