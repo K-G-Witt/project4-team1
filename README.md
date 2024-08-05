@@ -10,7 +10,14 @@ The 1000 Genomes Project provides a unique opportunity to test the discriminator
 You may need to install the following dependencies before commencing:
 
 ### Amazon Web Services Command Line Interface:
-!pip install awscli
+1. Open **GitBash**
+2. Activate your dev environment by typing **conda activate dev**
+3. Next, type **pip install awscli**
+
+### Multiple Correspondence Analysis (MCA) package:
+1. Open **GitBash**
+2. Activate your dev environment by typing **conda activate dev**
+3. Next, type **pip install prince**
 
 
 ## Usage Instructions:
@@ -75,6 +82,12 @@ https://www.internationalgenome.org/using-1000-genomes-data/ (accessed 25 July 2
 
 ### 1000 Genomes Ancestry (Data):
 Arvai K. (2024). 1000 Genomes Ancestry. Kaggle. https://kaggle.com/competitions/1000-genomes-ancestry (accessed 29 July 2024).
+
+### dbSNP database (to search for reference/alternate allele combinations by each SNIP):
+https://ncbi.nlm.nih.gov/snp/ (accessed 3 August 2024).
+
+### MCA using prince package:
+https://pypi.org/project/prince/0.6.2/#multiple-correspondence-analysis-mca (accessed 3 August 2024).
 
 ### Kidd et al (2014):
 Kidd KK., et al. (2014). Progress toward an efficient panel of SNPs for ancestry inference. Forensic Sci Int Genet, 10: 23-32. https://doi.org/10.1016/j.fsigen.2014.01.002 (accessed 29 July 2024).
