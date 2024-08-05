@@ -115,7 +115,7 @@ Visualisations can be seen on the following ![Tableau Dashboard]("https://public
 ![Screenshot of Tableau Dashboard](TableauScreenshot.png)
 
 ## Summary:
-Details here ...
+The model does well at predicting those of African and South Asian descent. About 5% of the time, the model will predict a European person as a South Asian person instead. The model does not predict those with East Asian heritage or American Heritage well. For someone from East Asia, about 40% of the time, the model will predict that person as South Asian. The model is terrible at predicting heritages from America. It seems to guess an ethnicity at random. If the study considers those who live in North America as American, then this fits as many North Americans have not been in that continent for long enough to be genetically distinct from their possible original continent.
 
 
 ## Data Ethics Statement:
