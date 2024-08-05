@@ -45,9 +45,13 @@ This repo also contains the following executable scripts:
     * Save the **kidd_combined.csv** and **seldin_combined.csv** datasets as .csv files into the Resources subfolder.
   
 2. **PCA.ipynb:** a python script, executable  in Jupyter Notebook, required to:
-     * X
-     * Y
-     * Z
+     * Load the **kidd** and **seldin** .csv files;
+     * One-hot encode the features;
+     * Explore data saving through generating a sparse matrix;
+     * Perform a PCA to evaluate explained variance by principal components;
+     * Plot the results of PCA;
+     * Calculate an F1-score for a range of PCA principal components;
+     * Plot the results of the F1-score calculations;
        
 3. **MCA.ipynb:** a python script, executable in Jupyter Notebook, required to:
     * Load the **kidd** and **seldin** .csv files;
@@ -79,6 +83,10 @@ The overall purposes of this analyses are to:
 
 ## Results:
 ### Data preprocessing:
+  Preprocessing was largely ineffective towards the final goal of creating a neural network to predict ancestry based on a range of SNPs.
+  Principal Component Analysis (PCA) generated very low scores for explained variance by 2 or 3 principal components.
+  The nature of the data is largely to blame for this, as DNA data is considered to be far too categorical in nature to be effectively handled by PCA.
+  Thus the PCA results were not passed on to the final neural network model.
 
 ### Feature selection to reduce dimesionality:
 
