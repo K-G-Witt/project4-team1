@@ -19,7 +19,7 @@ You may need to install the following dependencies before commencing:
 
 
 ## Usage Instructions:
-This repo contains the following datasets, saved in the Resources subfolder:
+This repo contains the following datasets, saved in the "**Resources subfolder**":
 * **1000genomes_populations.csv:** a broadcast table containing data on the population types, population codes, and superpopulation codes for each ancestry group.
 
 * **1000genomes_superpopulations.csv:** a broadcast table containing data on the superpopulation types and codes for each ancestry group.
@@ -33,7 +33,7 @@ This repo contains the following datasets, saved in the Resources subfolder:
   * **seldin_train.csv:** the train dataset from Seldin et al (2011).
 
  
-This repo also contains the following executable scripts:
+This repo also contains the following executable scripts in the "**Scripts subfolder**":
 
 1. **Install_1000genomes.ipynb:** a python script, executable in Jupyter Notebook, required to:
     * Download the **1000genomes_populations** and **1000genomes_superpopulations** data from the 1000 Genomes Project AWS S3 Bucket;
