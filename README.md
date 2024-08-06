@@ -69,8 +69,19 @@ This repo also contains the following executable scripts:
 
 4. **NN_Kidd.ipynb** and **NN_Seldin.ipynb:** two python scripts, executable in Jupyter Notebook, required to:
      * Load the **kidd** and **seldin** .csv files;
-     * Y
-     * Z
+     * Drop categorical id and gender data not required
+     * Numerically encode the 6 possible superpopulation target output values from 0 to 5
+     * One-hot encode the 57 categorical features to numerical values 0 and 1
+     * Set target and feature arrays as y and X from prepocessed data
+     * Split preprocessed data into training and testing datasets
+     * Scale the data
+     * Define the deep neural network as tensorflow.keras Sequential model (model)
+     * Compile the model setting loss, optimizer and metrics variables
+     * Fit the model using training data and 100 epochs
+     * Evaluate the model using test data
+     * Extract predictions
+     * Compare actual and predicted superpopulation data
+     * Convert output back to categorical naming convention
 
 5. **Result_counting.ipynb:** a python script to count the interactions between superpopulations
     * Reads in a csv file containing actual superpopulation data and predicted superpopulation data
