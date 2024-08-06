@@ -121,6 +121,8 @@ The overall purposes of this analyses are to:
 
 ### Classifying ancestry:
 * In both the actual and predicted results, the ancestry super population has been classified as African (AFR), American (AMR), East Asian (EAS), European (EUR), or South Asian (SAS). In addition, there are a percentage of records in the actual and predicted results where the superpopulation is blank, as the ancestry of the participant was not determined by the models.
+  * Using the 57 SNIPs from the Kidd et al project our neural network achieved 82 to 85% accuracy.
+  * Using the 128 SNIPs from the Seldin et al project our neural network achieved 88 to 92% accuracy.
 
 ### Visualisations:
 Visualisations can be seen on the following ![Tableau Dashboard]("https://public.tableau.com/app/profile/violet.bui/viz/shared/WC6BNC323")    
