@@ -120,6 +120,7 @@ The overall purposes of this analyses are to:
 * Thus, MCA results were not passed on to the final neural network model.
 
 ### Classifying ancestry:
+* In both the actual and predicted results, the ancestry super population has been classified as African (AFR), American (AMR), East Asian (EAS), European (EUR), or South Asian (SAS). In addition, there are a percentage of records in the actual and predicted results where the superpopulation is blank, as the ancestry of the participant was not determined by the models.
 
 ### Visualisations:
 Visualisations can be seen on the following ![Tableau Dashboard]("https://public.tableau.com/app/profile/violet.bui/viz/shared/WC6BNC323")    
